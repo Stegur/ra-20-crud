@@ -1,0 +1,36 @@
+.CardItem {
+    box-sizing: border-box;
+    position: relative;
+
+    width: 300px;
+    min-height: 300px;
+    margin-top: 40px;
+    padding: 15px;
+
+    border: 1px solid black;
+}
+
+.CardItem:not(:last-child) {
+    margin-right: 40px;
+}
+
+.CardItem-del-btn {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    background: white;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    color: red;
+    text-decoration: none;
+}

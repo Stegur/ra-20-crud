@@ -1,0 +1,68 @@
+.CardsList-container {
+    padding: 20px;
+}
+
+.CardsList-update {
+
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.CardsList-update-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    color: green;
+    text-decoration: none;
+}
+
+.CardsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CardsList-form {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    margin-top: 30px;
+}
+
+#newNote {
+    box-sizing: border-box;
+
+    width: 300px;
+    padding: 15px;
+    
+    border: 1px solid black;
+}
+
+.CardsList-add-btn {
+    position: absolute;
+    left: 260px;
+    bottom: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    text-decoration: none;
+}
